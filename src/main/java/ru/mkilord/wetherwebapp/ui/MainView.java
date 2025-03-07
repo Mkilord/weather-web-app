@@ -139,17 +139,16 @@ public class MainView extends HorizontalLayout {
     }
 
     public String getImagePathById(String iconId) {
-        /*Можно добавить и ночные иконки буква в индексе меняется на n*/
-        return switch (iconId) {
-            case "01d" -> "images/cat_sunny.jpg";
-            case "02d" -> "images/cat_partly_cloudy.jpg";
-            case "03d" -> "images/cat_cloudy.jpg";
-            case "04d" -> "images/cat_dewy.jpg";
-            case "09d" -> "images/cat_heavy_rain.jpg";
-            case "10d" -> "images/cat_light_rain.jpg";
-            case "11d" -> "images/cat_thunderstorm.jpg";
-            case "13d" -> "images/snowy_cat.jpg";
-            case "50d" -> "images/cat_foggy.jpg";
+        return switch (iconId.substring(0,2)) {
+            case "01" -> "images/cat_sunny.jpg";
+            case "02" -> "images/cat_partly_cloudy.jpg";
+            case "03" -> "images/cat_cloudy.jpg";
+            case "04" -> "images/cat_dewy.jpg";
+            case "09" -> "images/cat_heavy_rain.jpg";
+            case "10" -> "images/cat_light_rain.jpg";
+            case "11" -> "images/cat_thunderstorm.jpg";
+            case "13" -> "images/snowy_cat.jpg";
+            case "50" -> "images/cat_foggy.jpg";
             default -> "images/cat_undefined.jpg";
         };
     }
