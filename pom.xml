@@ -14,6 +14,7 @@
     <name>weather-web-app</name>
     <description>weather-web-app</description>
 
+    <packaging>jar</packaging>
     <properties>
         <java.version>22</java.version>
         <vaadin.version>24.6.6</vaadin.version>
@@ -61,6 +62,7 @@
     </dependencyManagement>
 
     <build>
+        <defaultGoal>install</defaultGoal>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
