@@ -1,4 +1,4 @@
-# README для Weather Web App
+Weather Web App
 
 ## Описание
 
