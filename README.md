@@ -4,9 +4,9 @@
 
 Weather Web App — это веб-приложение для получения данных о погоде. Оно работает в контейнере Docker и использует API для получения прогнозов погоды.
 
-![image](https://github.com/user-attachments/assets/0fcd7266-258d-4857-9ec6-b14db8396a8b)
-![image](https://github.com/user-attachments/assets/a9de1eec-45c7-494d-9df5-c7bd643486ee)
-![image](https://github.com/user-attachments/assets/459b57b0-2dd4-4126-abf8-8bab8085a81a)
+![image](https://github.com/user-attachments/assets/e3c42dae-8901-4305-9c0d-a8a3df726540)
+![image](https://github.com/user-attachments/assets/7411fd1b-9957-4884-be4b-7a7c4a91d072)
+![image](https://github.com/user-attachments/assets/fad2f39a-237f-4a03-a7f5-4af0a06da458)
 
 ## Требования
 
